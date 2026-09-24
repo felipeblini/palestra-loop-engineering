@@ -1,0 +1,215 @@
+/* gerado de tokens.json por tokens-para-css.mjs — não edite; edite o JSON */
+:root {
+  --color-purple-100: #ede4fb;
+  --color-purple-200: #cbb8e8;
+  --color-purple-300: #9d7fd4;
+  --color-purple-400: #7c5cb8;
+  --color-purple-500: #5b3a99;
+  --color-purple-600: #4a2a80;
+  --color-purple-700: #3b1f6b;
+  --color-purple-800: #2e1659;
+  --color-purple-850: #241344;
+  --color-purple-900: #1c0e33;
+  --color-purple-950: #130a22;
+  --color-gold-300: #ffe082;
+  --color-gold-400: #ffd23f;
+  --color-gold-500: #ffc107;
+  --color-gold-600: #e5a600;
+  --color-gold-700: #b8860b;
+  --color-magenta-500: #ff4d8d;
+  --color-violet-500: #a24bff;
+  --color-success-500: #34c759;
+  --color-neutral-white: #ffffff;
+  --color-neutral-black: #000000;
+  --color-confetti-1: #ffc107;
+  --color-confetti-2: #34c759;
+  --color-confetti-3: #3dc2ff;
+  --color-confetti-4: #ff4d8d;
+  --color-confetti-5: #9b5de5;
+  --color-confetti-6: #ff8a3d;
+  --color-confetti-7: #f2f2f2;
+  --semantic-background-canvas-start: var(--color-purple-800);
+  --semantic-background-canvas-end: var(--color-purple-950);
+  --semantic-background-overlay: #130a22e0;
+  --semantic-background-surface: var(--color-purple-700);
+  --semantic-background-surface-raised: var(--color-purple-600);
+  --semantic-background-surface-sunken: var(--color-purple-850);
+  --semantic-background-chip: var(--color-purple-850);
+  --semantic-background-badge: var(--color-purple-600);
+  --semantic-text-primary: #f6f0ff;
+  --semantic-text-secondary: var(--color-purple-300);
+  --semantic-text-muted: #8b72b8;
+  --semantic-text-accent: var(--color-gold-500);
+  --semantic-text-display-base: #f0e6ff;
+  --semantic-text-on-accent: #1c0e33;
+  --semantic-text-placeholder: #7a68a0;
+  --semantic-border-subtle: #4a2a8066;
+  --semantic-border-default: var(--color-purple-500);
+  --semantic-border-dashed: #7c5cb8;
+  --semantic-border-selected: var(--color-gold-500);
+  --semantic-action-primary-bg: var(--color-gold-500);
+  --semantic-action-primary-bg-hover: var(--color-gold-400);
+  --semantic-action-primary-bg-active: var(--color-gold-600);
+  --semantic-action-primary-bg-disabled: #ffc10759;
+  --semantic-action-primary-fg: var(--semantic-text-on-accent);
+  --semantic-action-primary-fg-disabled: #1c0e3399;
+  --semantic-action-ghost-fg: var(--color-purple-300);
+  --semantic-action-destructive-bg: #130a2299;
+  --semantic-feedback-success: var(--color-success-500);
+  --gradient-canvas: linear-gradient(
+    180deg,
+    var(--color-purple-800) 0%,
+    var(--color-purple-900) 55%,
+    var(--color-purple-950) 100%
+  );
+  --gradient-draw-ring: linear-gradient(
+    135deg,
+    var(--color-violet-500) 0%,
+    var(--color-magenta-500) 50%,
+    var(--color-gold-500) 100%
+  );
+  --gradient-cta: linear-gradient(
+    135deg,
+    var(--color-gold-400) 0%,
+    var(--color-gold-500) 100%
+  );
+  --gradient-title-shimmer: linear-gradient(
+    135deg,
+    var(--color-gold-500) 0%,
+    var(--color-gold-500) 38%,
+    #fff6d6 50%,
+    var(--color-gold-500) 62%,
+    var(--color-gold-500) 100%
+  );
+  --font-family-display: Fraunces, Georgia, serif;
+  --font-family-body: Outfit, system-ui, sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+  --font-size-2xs: 11px;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 22px;
+  --font-size-2xl: 28px;
+  --font-size-3xl: 36px;
+  --font-size-4xl: 44px;
+  --font-lineHeight-tight: 1.1;
+  --font-lineHeight-snug: 1.25;
+  --font-lineHeight-normal: 1.5;
+  --font-lineHeight-relaxed: 1.65;
+  --font-letterSpacing-tight: -0.01em;
+  --font-letterSpacing-normal: 0;
+  --font-letterSpacing-wide: 0.12em;
+  --typography-hero-font-family: var(--font-family-display);
+  --typography-hero-font-weight: var(--font-weight-black);
+  --typography-hero-font-size: var(--font-size-3xl);
+  --typography-hero-line-height: 40px;
+  --typography-section-title-font-family: var(--font-family-display);
+  --typography-section-title-font-weight: var(--font-weight-bold);
+  --typography-section-title-font-size: var(--font-size-xl);
+  --typography-section-title-line-height: var(--font-lineHeight-snug);
+  --typography-winner-name-font-family: var(--font-family-display);
+  --typography-winner-name-font-weight: var(--font-weight-bold);
+  --typography-winner-name-font-size: var(--font-size-2xl);
+  --typography-winner-name-line-height: var(--font-lineHeight-snug);
+  --typography-body-font-family: var(--font-family-body);
+  --typography-body-font-weight: var(--font-weight-regular);
+  --typography-body-font-size: var(--font-size-md);
+  --typography-body-line-height: var(--font-lineHeight-normal);
+  --typography-body-sm-font-family: var(--font-family-body);
+  --typography-body-sm-font-weight: var(--font-weight-regular);
+  --typography-body-sm-font-size: var(--font-size-sm);
+  --typography-body-sm-line-height: 20px;
+  --typography-label-caps-font-family: var(--font-family-body);
+  --typography-label-caps-font-weight: var(--font-weight-semibold);
+  --typography-label-caps-font-size: var(--font-size-xs);
+  --typography-label-caps-letter-spacing: var(--font-letterSpacing-wide);
+  --typography-label-caps-text-case: uppercase;
+  --typography-button-font-family: var(--font-family-body);
+  --typography-button-font-weight: var(--font-weight-bold);
+  --typography-button-font-size: var(--font-size-lg);
+  --typography-button-line-height: var(--font-lineHeight-snug);
+  --typography-chip-font-family: var(--font-family-body);
+  --typography-chip-font-weight: var(--font-weight-medium);
+  --typography-chip-font-size: var(--font-size-sm);
+  --typography-chip-line-height: var(--font-lineHeight-snug);
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+  --borderWidth-hairline: 1px;
+  --borderWidth-thick: 2px;
+  --borderWidth-dashed: 2px;
+  --shadow-card: 0 8px 24px 0 #0a041499;
+  --shadow-cta: 0 6px 20px 0 #ffc1073d;
+  --shadow-avatar-glow: 0 0 32px 4px #ffc10766;
+  --shadow-selected-glow: 0 0 16px 0 #ffc10759;
+  --blur-overlay: 6px;
+  --size-control-height: 56px;
+  --size-input-height: 52px;
+  --size-chip-height: 36px;
+  --size-avatar: 120px;
+  --size-draw-icon: 104px;
+  --size-prize-thumb: 48px;
+  --size-content-max: 960px;
+  --size-participants-panel-max: 280px;
+  --grid-prizes-columns-mobile: 2;
+  --grid-prizes-columns-desktop: 3;
+  --grid-prizes-gap: var(--space-4);
+  --grid-prizes-card-aspect: 4 / 3;
+  --breakpoint-sm: 480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --motion-duration-fast: 150ms;
+  --motion-duration-normal: 250ms;
+  --motion-duration-modal: 400ms;
+  --motion-duration-draw: 7500ms;
+  --motion-duration-confetti: 3500ms;
+  --motion-duration-shimmer-sweep: 1400ms;
+  --motion-duration-shimmer-cycle: 4200ms;
+  --motion-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+  --motion-easing-enter: cubic-bezier(0, 0, 0.2, 1);
+  --motion-easing-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --motion-easing-shimmer: cubic-bezier(0.45, 0, 0.55, 1);
+  --asset-winner-avatar-size: var(--size-avatar);
+  --asset-winner-avatar-radius: var(--radius-full);
+  --asset-winner-avatar-glow: var(--shadow-avatar-glow);
+  --effect-title-shimmer-gradient: var(--gradient-title-shimmer);
+  --effect-title-shimmer-angle: 100;
+  --effect-title-shimmer-band-width: 220%;
+  --effect-title-shimmer-from: 200%;
+  --effect-title-shimmer-to: -100%;
+  --effect-title-shimmer-duration: var(--motion-duration-shimmer-sweep);
+  --effect-title-shimmer-cycle: var(--motion-duration-shimmer-cycle);
+  --effect-title-shimmer-easing: var(--motion-easing-shimmer);
+  --effect-title-shimmer-iteration: -1;
+  --effect-title-shimmer-fallback-color: var(--semantic-text-accent);
+  --opacity-disabled: 0.35;
+  --opacity-overlay: 0.88;
+  --z-base: 0;
+  --z-sticky: 10;
+  --z-overlay: 100;
+  --z-confetti: 200;
+}
+
+/* tokens que não são CSS (configuração de asset):
+  --asset-winner-avatar-source: design/avatar/*.png
+*/

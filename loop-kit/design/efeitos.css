@@ -1,0 +1,38 @@
+/*
+ * Efeitos animados do design. O PNG não carrega movimento: a receita está aqui.
+ * Copie este arquivo como está para o projeto e aplique as classes. Só usa os
+ * tokens de tokens.css.
+ *
+ * .brilho — uma faixa clara atravessa o texto devagar, da esquerda para a direita,
+ * e o texto fica parado em dourado até o próximo ciclo. Vai no título da página e
+ * na palavra "Sorteando…". O texto NUNCA some: fora da faixa, o background-color
+ * dourado aparece recortado pelo texto.
+ *
+ * Mais calmo que os tokens crus (varredura de 1,4 s indo de 200% a -100%, que
+ * passava pelo texto em ~300 ms): a varredura dura o dobro do token e o percurso
+ * vai só de 130% a -30%, quase todo sobre o texto. Ciclo = 1,5 × o do token.
+ */
+.brilho {
+  --brilho-varredura: calc(var(--motion-duration-shimmer-sweep) * 2);   /* 2,8 s */
+  --brilho-ciclo: calc(var(--motion-duration-shimmer-cycle) * 1.5);     /* 6,3 s */
+  color: var(--effect-title-shimmer-fallback-color);
+  background-color: var(--effect-title-shimmer-fallback-color);
+  background-image: var(--effect-title-shimmer-gradient);
+  background-size: var(--effect-title-shimmer-band-width) 100%;
+  background-repeat: no-repeat;
+  background-position: 130% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: brilho var(--brilho-ciclo) var(--motion-easing-shimmer) infinite;
+}
+
+/* A varredura ocupa 2,8 s de um ciclo de 6,3 s: 44,4% do tempo. */
+@keyframes brilho {
+  0% { background-position: 130% 0; }
+  44.444%, 100% { background-position: -30% 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brilho { animation: none; }
+}
